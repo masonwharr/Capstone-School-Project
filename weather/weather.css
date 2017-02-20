@@ -1,0 +1,212 @@
+html{
+  background-color:#CDFFF9;
+  margin:0px;
+  padding:0px;
+  width:100%;
+}
+body{
+  margin:0px;
+  padding:0px;
+}
+.container{
+ width:900px;
+  height:700px;
+  background-color:white;
+  position:absolute;
+  left:50%;
+  margin-left:-450px;
+  -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+.citysearch{
+  left:375px;
+ top:40%;
+  margin:0px;
+  padding:0px;
+  position: absolute;
+  border:solid black;
+
+}
+
+.results{
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:300px;
+	color:white;
+	top:50%;
+	background-color:#008B8B;
+	border-radius:5px;
+
+}
+.results:hover{
+-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.inputname{
+	font-family:Lato;
+	position:absolute;
+	top:30%;
+	left:350px;
+}
+.enter{
+width:100px;
+height:50px;
+position:absolute;
+top:265px;
+left:250px;
+background-color:#00FA9A;
+border:#00FA9A;
+font: 400 1.5em/1.5em 'Lato';
+color:white;
+border-radius:5px;
+
+}
+
+.icons8{
+position:relative;
+top:650px;
+text-decoration:none;
+color:black;
+left:50%;
+margin-left:-64px;
+font-family:Lato;
+
+}
+
+.icon{
+	position:absolute;
+	left:400px;
+}
+.temperature{
+	font-family:Lato;
+	margin:5px;
+	font-size:40px;
+	position:absolute;
+	right:110px;
+}
+
+.city{
+font-family:Lato;
+margin:5px;
+position:absolute;
+right:130px;
+top:55px;
+
+}
+
+.switchpage{
+	height:50px;
+	width:100px;
+	background-color:#817F75;
+	position:absolute;
+	top:120px;
+	left:400px;
+	padding:5px;
+	font: 400 1.0em/1.5em 'Lato';
+	border-radius:5px;
+}
+.pagelink{
+	text-decoration:none;
+	font-family:Lato;
+	color:white;
+}
+
+.humidity{
+font-family:Lato;
+margin:5px;
+font-size:40px;
+position:absolute;
+right:110px;
+
+}
+@media screen and (max-width:1258px){
+	html{
+		width:100%;
+	}
+	.container{
+		width:675px;
+		position:absolute;
+		margin-left:-337.5px;
+		}
+		.humidity,.pagelink,.switchpage,.icon,.icons8,.inputname,.results,.citysearch{
+	left:250px;
+}
+.enter{
+	left:130px;
+
+}
+.city{
+	left:125px;
+}
+.temperature,.humidity{
+	left:105px;
+}
+.results{
+	left:200px;
+}
+	}
+
+
+
+
+
+
+
+@media screen and (max-width:875px){
+	html{
+		width:100%;
+	}
+	.container{
+		width:465px;
+		position:relative;
+		margin-left:-232.5px;
+	}
+.humidity,.pagelink,.switchpage,.icon,.icons8,.inputname,.results,.citysearch{
+	left:150px;
+}
+.enter{
+	left:30px;
+
+}
+.city{
+	left:125px;
+}
+.temperature,.humidity{
+	left:105px;
+}
+.results{
+	left:100px;
+}
+}
+
+@media screen and (max-width:500px){
+	html{
+		width:100%;
+	}
+	.container{
+		width:465px;
+		position:absolute;
+	}
+.humidity,.pagelink,.switchpage,.icon,.icons8,.inputname,.results,.citysearch{
+	left:150px;
+}
+.enter{
+	left:30px;
+
+}
+.city{
+	left:125px;
+}
+.temperature,.humidity{
+	left:105px;
+}
+.results{
+	left:100px;
+}
+}
+
